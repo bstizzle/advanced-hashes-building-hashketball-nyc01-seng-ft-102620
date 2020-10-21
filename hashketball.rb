@@ -2,7 +2,7 @@
 require 'pry'
 
 def game_hash
-  {:home => {:team_name => "Brooklyn Nets", 
+  hash = {:home => {:team_name => "Brooklyn Nets", 
              :colors => ["Black", "White"], 
              :players => [:alan_anderson => {player_name: "Alan Anderson",
                                              number: 0,
