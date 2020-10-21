@@ -1,4 +1,5 @@
 # Write your code here!
+require 'pry'
 
 def game_hash
   {:home => {:team_name => "Brooklyn Nets", 
@@ -12,6 +13,7 @@ def game_hash
                                              steals: 3,
                                              blocks: 1,
                                              slam_dunks: 1},
+                                             binding.pry
                           :reggie_evans => {player_name: "",
                                              number: 0,
                                              shoe: 0,
